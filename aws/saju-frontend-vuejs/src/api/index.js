@@ -6,7 +6,7 @@ export default process.env.NODE_ENV == "production"
       //production 환경 (AWS EC2)
       // baseURL: "http://54.180.54.32:3000",
       // baseURL: "http://saju-alb-0925-8234669.ap-northeast-2.elb.amazonaws.com",
-      baseURL: "https://api.saju.day",
+      baseURL: "https://13.125.189.220:3000",
     })
   : axios.create({
       //development 환경
